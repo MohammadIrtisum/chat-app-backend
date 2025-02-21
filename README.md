@@ -5,5 +5,8 @@
 2)npm i express
 
 3) npm i jsonwebtoken
+
 4) npm install dotenv
+
+5)npm install bcrypt
 
