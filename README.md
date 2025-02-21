@@ -1,6 +1,9 @@
 # chat-app-backend
 
-package.json== npm init
+1)package.json== npm init
 
-npm i express
+2)npm i express
+
+3) npm i jsonwebtoken
+4) npm install dotenv
 
