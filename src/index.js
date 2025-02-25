@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse JSON bodies
 // app.use(express.json());
 app.use(bodyParser.json());
-app.use("auth",authRouter);
+app.use("/auth",authRouter);
 
 
     // app.get('/profile',verifyToken,(req,res)=>{
