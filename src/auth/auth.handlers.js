@@ -21,6 +21,8 @@ export const registerHandler = async(req, res) => {
         // res.send(`Register user ${username} with ${password}`)
         const saltRounds = 10;
         const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
+
+        
         users.push({username,password:hashedPassword});
         res.status(201).json({ message: 'User registered successfully'})
        

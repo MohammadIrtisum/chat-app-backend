@@ -10,3 +10,5 @@
 
 5)npm install bcrypt
 
+6)npx prisma init
+
