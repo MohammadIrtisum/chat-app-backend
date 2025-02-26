@@ -11,4 +11,7 @@
 5)npm install bcrypt
 
 6)npx prisma init
+7)
+
+8)npm i http-status-codes zod
 
